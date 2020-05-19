@@ -10,9 +10,10 @@ git commit -m "$message"
 git push
 ~~~~
 
-## Setup
-1. Move push to /usr/local/bin (or any  other forder added to your $PATH)
-2. Might need to run 'chmod u+x push'
+## Install
+~~~~
+cd /usr/local/bin && wget https://raw.githubusercontent.com/kkristof200/push/master/push && chmod u+x push
+~~~~
 
 ## Usage
 1. Navigate to folder where your repo is
