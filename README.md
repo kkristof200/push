@@ -11,8 +11,10 @@ git push
 ~~~~
 
 ## Install
-~~~~
-cd /usr/local/bin && wget https://raw.githubusercontent.com/kkristof200/push/master/push && chmod u+x push
+~~~~shell
+wget https://raw.githubusercontent.com/kkristof200/push/master/push -O /usr/local/bin/push && chmod u+x /usr/local/bin/push
+# or
+curl https://raw.githubusercontent.com/kkristof200/push/master/push > /usr/local/bin/push && chmod u+x /usr/local/bin/push
 ~~~~
 
 ## Usage
