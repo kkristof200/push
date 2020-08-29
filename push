@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -x "$(command -v set_git_user)" ]; then
+    set_git_user
+fi
+
 message=$1
 if [ "$message" == "" ]; then
     message="no message"
